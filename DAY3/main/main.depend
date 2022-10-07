@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1654663086 source:c:\users\zarak\onedrive\desktop\day3\main\main.c
+	<stdio.h>
+	<stdlib.h>
+	"head.h"
+
+1654663046 c:\users\zarak\onedrive\desktop\day3\main\head.h
+

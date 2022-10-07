@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1654666123 source:c:\users\zarak\onedrive\desktop\day3\new\main.c
+	<stdio.h>
+	<stdlib.h>
+	"head.h"
+
+1654663792 c:\users\zarak\onedrive\desktop\day3\new\head.h
+
+1654666025 source:c:\users\zarak\onedrive\desktop\day3\new\principle.c
+
+1654667576 source:c:\users\zarak\onedrive\desktop\day3\new\interest.c
+	<stdio.h>
+	<stdlib.h>
+

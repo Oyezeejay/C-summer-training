@@ -1,0 +1,57 @@
+There are majorly four types of pointers, they are:
+Null Pointer.
+Void Pointer.
+Wild Pointer.
+Dangling Pointer.
+
+
+Dangling, Void , Null and Wild Pointers ::=>
+
+Dangling pointer => 
+
+A pointer pointing to a memory location that has been deleted (or freed) is called dangling pointer. There are three different ways where Pointer acts as dangling pointer
+
+De-allocation of memory => example given. (De_allocation_of_memor.cpp)
+
+Function Call => example given (Function_Call.cpp and Function_Call_OK.cpp)
+ give garbage value...
+ (The above problem doesn’t appear (or p doesn’t become dangling) if x is a static variable.)
+ 
+ Variable goes out of scope 
+void main()
+{
+   int *ptr;
+   .....
+   .....
+   {
+       int ch;
+       ptr = &ch;
+   } 
+   .....   
+   // Here ptr is dangling pointer
+  } 
+   
+   
+   
+Void pointer => example (Void_Pointer.cpp)
+
+Void pointer is a specific pointer type – void * – a pointer that points to some data location in storage, which doesn’t have any specific type. Void refers to the type. Basically the type of data that it points to is can be any. If we assign address of char data type to void pointer it will become char Pointer, if int data type then int pointer and so on. Any pointer type is convertible to a void pointer hence it can point to any value. Important Points
+
+void pointers cannot be dereferenced. It can however be done using typecasting the void pointer
+Pointer arithmetic is not possible on pointers of void due to lack of concrete value and thus size.
+
+NULL Pointer => example ()
+
+NULL Pointer is a pointer which is pointing to nothing. In case, if we don’t have address to be assigned to a pointer, then we can simply use NULL. 
+
+
+
+Important Points =>
+
+NULL vs Uninitialized pointer – An uninitialized pointer stores an undefined value. A null pointer stores a defined value, but one that is defined by the environment to not be a valid address for any member or object.
+NULL vs Void Pointer – Null pointer is a value, while void pointer is a type
+
+
+Wild pointer =>
+
+A pointer which has not been initialized to anything (not even NULL) is known as wild pointer. The pointer may be initialized to a non-NULL garbage value that may not be a valid address. 

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1655100483 source:d:\sharda university\summer internship training\day6\reverseorder\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
